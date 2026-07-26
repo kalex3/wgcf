@@ -7,7 +7,7 @@ RUN apk add --no-cache git && go mod download && CGO_ENABLED=0 go build -ldflags
 
 FROM alpine:latest
 
-WORKDIR /
+WORKDIR /data
 
 COPY --from=builder "/src/wgcf" "/"
 
