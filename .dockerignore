@@ -1,0 +1,11 @@
+.git
+.github
+.gitignore
+.dockerignore
+Dockerfile
+.goreleaser.yml
+.releaserc.json
+LICENSE
+README.md
+openapi-spec.yml
+openapitools.json
